@@ -1,0 +1,156 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: arial;
+}
+.five-a {
+  font-family: tahoma;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.five-b-heading {
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.five-b-subheading {
+  font-style: italic;
+  color: red;
+  font-family: verdana;
+  margin-bottom: 10px;
+}
+.five-c-heading {
+  font-family: arial;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.five-c-subheading1 {
+  font-family: arial;
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+.five-c-subheading2 {
+  width: 250px;
+  font-family: arial;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.five-c-button {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  transition: box-shadow 0.15s;
+  margin-bottom: 10px;
+  font-family: arial;
+}
+.five-c-button:hover {
+  box-shadow: 3px 3px 2px rgba(13, 192, 52, 0.15);
+}
+.five-d-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: arial;
+  width: 300px;
+  text-align: center;
+}
+.five-d-subheading1,
+.five-d-subheading2 {
+  font-size: 13px;
+  font-family: arial;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.five-d-subheading2 {
+  color: blue;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.five-e-heading {
+  font-size: 10px;
+  width: 400px;
+  text-align: center;
+  color: red;
+  margin-bottom: 10px;
+}
+.five-e-subheading1 {
+  font-size: 20px;
+  text-align: center;
+  width: 400px;
+  font-weight: bold;
+}
+.five-e-subheading2 {
+  font-size: 30px;
+  width: 400px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.five-e-subheading3 {
+  font-size: 13px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.five-e-button {
+  color: white;
+  background-color: rgb(72, 94, 207);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 18px;
+}
+.five-e-button-para {
+  width: 400px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.five-f-heading {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.five-f-subheading1 {
+  color: green;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.USD {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+.five-f-subheading2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.usd-change {
+  color: red;
+}
+.five-g-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.acc-name-time {
+  font-weight: normal;
+  color: rgb(96, 96, 96);
+}
+.five-g-subheading {
+  width: 500px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.link {
+  color: skyblue;
+}

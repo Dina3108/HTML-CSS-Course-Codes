@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button-Transitions</title>
+    <style>
+      .Subscribe-button {
+        background-color: rgb(204, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+      }
+      .Subscribe-button:hover {
+        opacity: 0.75;
+      }
+      .Subscribe-button:active {
+        background-color: black;
+      }
+      .Join-button {
+        height: 36px;
+        width: 60px;
+        background-color: white;
+        border-width: 1px;
+        border-color: rgb(43, 41, 45);
+        border-radius: 2px;
+        color: rgb(2, 158, 220);
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 1s, color 1s;
+      }
+      .Join-button:hover {
+        background-color: rgb(2, 158, 220);
+        color: white;
+      }
+      .Join-button:active {
+        opacity: 0.7;
+      }
+      .Tweet-button {
+        height: 36px;
+        width: 80px;
+        background-color: rgb(2, 158, 220);
+        color: white;
+        border-color: rgb(2, 158, 220);
+        border-radius: 18px;
+        font-size: 16px;
+        cursor: pointer;
+        border-style: solid;
+        transition: background-color 0.15s, color 0.15s;
+      }
+      .Tweet-button:hover {
+        box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="Subscribe-button">SUBSCRIBE</button>
+    <button class="Join-button">JOIN</button>
+    <button class="Tweet-button">Tweet</button>
+  </body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12a</title>
+    <style>
+      p {
+        font-family: arial;
+      }
+      div {
+        display: inline-block;
+      }
+      .a-cont {
+        width: 300px;
+        margin-bottom: 20px;
+        display: block;
+      }
+      .a-imag {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-right: 10px;
+        margin-top: 5px;
+      }
+      .a-name {
+        font-size: 15px;
+        width: 150px;
+        height: 20px;
+        margin-top: 0;
+        margin-bottom: 2px;
+        vertical-align: top;
+      }
+      .a-but-container {
+        vertical-align: top;
+        margin-top: 20px;
+      }
+      .a-button {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgb(43, 142, 240);
+        border: none;
+        color: white;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; margin-bottom: 10px">
+      <div style="background-color: lightblue; width: 200px">200px</div>
+      <div style="background-color: lightpink; width: 75px">75px</div>
+    </div>
+    <div style="display: flex; margin-bottom: 10px">
+      <div style="background-color: lightblue; width: 50px">50px</div>
+      <div style="background-color: lightpink; flex: 1">flex</div>
+      <div style="background-color: lightblue; width: 75px">75px</div>
+    </div>
+    <div
+      style="display: flex; flex-direction: row; justify-content: space-between"
+    >
+      <div style="background-color: lightpink">item 1</div>
+      <div style="background-color: lightpink">item 1</div>
+      <div style="background-color: lightpink">item 1</div>
+      <div style="background-color: lightpink">item 1</div>
+    </div>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid gray;
+        height: 50px;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      "
+    >
+      <div style="background-color: lightpink">item 1</div>
+      <div style="background-color: lightpink">item 2</div>
+    </div>
+    <div
+      style="
+        width: 200px;
+        border: 1px solid rgb(246, 236, 236);
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+        margin-bottom: 20px;
+      "
+    >
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 150px 50px;
+          height: 30px;
+          align-items: center;
+        "
+      >
+        <div style="margin-left: 5px">Home</div>
+        <div style="display: grid; justify-content: center">
+          <button
+            style="
+              padding-top: 5px;
+              padding-bottom: 5px;
+              padding-left: 10px;
+              padding-right: 10px;
+              color: white;
+              background-color: rgb(43, 142, 240);
+              border: none;
+              border-radius: 10px;
+              font-weight: bold;
+            "
+          >
+            14
+          </button>
+        </div>
+      </div>
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 150px 50px;
+          height: 30px;
+          align-items: center;
+        "
+      >
+        <div style="margin-left: 5px">Notifications</div>
+        <div style="display: grid; justify-content: center">
+          <button
+            style="
+              padding-top: 5px;
+              padding-bottom: 5px;
+              padding-left: 10px;
+              padding-right: 10px;
+              color: white;
+              background-color: rgb(43, 142, 240);
+              border: none;
+              border-radius: 10px;
+              font-weight: bold;
+            "
+          >
+            3
+          </button>
+        </div>
+      </div>
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 150px 50px;
+          height: 30px;
+          align-items: center;
+        "
+      >
+        <div style="margin-left: 5px; margin-bottom: 5px">Messages</div>
+        <div style="display: grid; justify-content: center">
+          <button
+            style="
+              padding-top: 5px;
+              padding-bottom: 5px;
+              padding-left: 10px;
+              padding-right: 10px;
+              color: white;
+              background-color: rgb(43, 142, 240);
+              border: none;
+              border-radius: 10px;
+              font-weight: bold;
+            "
+          >
+            5
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 200px 1fr 100px;
+        justify-content: space-between;
+        background-color: blueviolet;
+        height: 50px;
+        align-items: center;
+        margin-bottom: 30px;
+      "
+    >
+      <div
+        style="
+          color: white;
+          font-family: arial;
+          font-weight: bold;
+          margin-left: 10px;
+        "
+      >
+        Home
+      </div>
+      <div>
+        <input
+          type="search"
+          placeholder="Search"
+          style="
+            width: 850px;
+            border-radius: 250px;
+            height: 30px;
+            border: none;
+            padding-left: 20px;
+            font-family: arial;
+            color: gray;
+          "
+        />
+      </div>
+      <div>
+        <button
+          style="
+            background-color: blueviolet;
+            color: white;
+            border-color: white;
+            border-style: solid;
+            border: width 1px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: arial;
+            font-weight: bold;
+          "
+        >
+          Download
+        </button>
+      </div>
+    </div>
+    <div
+      style="
+        border: 1px solid rgb(246, 236, 236);
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+        padding-top: 15px;
+      "
+    >
+      <div class="a-cont">
+        <div>
+          <img
+            src="WhatsApp Image 2024-12-21 at 3.45.13 PM.jpeg"
+            class="a-imag"
+          />
+        </div>
+        <div class="a-name">
+          <p class="a-name" style="font-weight: bold">Oliver</p>
+          <p class="a-name" style="color: rgb(96, 96, 96)">the cat</p>
+          <p class="a-name" style="color: rgb(96, 96, 96)">Popular</p>
+        </div>
+        <div class="a-but-container">
+          <button class="a-button">Follow</button>
+        </div>
+      </div>
+      <div class="a-cont">
+        <div>
+          <img
+            src="WhatsApp Image 2024-12-21 at 3.45.13 PM.jpeg"
+            class="a-imag"
+          />
+        </div>
+        <div class="a-name">
+          <p class="a-name" style="font-weight: bold">Mimi</p>
+          <p class="a-name" style="color: rgb(96, 96, 96)">Sleepy Cat</p>
+          <p class="a-name" style="color: rgb(96, 96, 96)">Popular</p>
+        </div>
+        <div class="a-but-container">
+          <button class="a-button">Follow</button>
+        </div>
+      </div>
+      <div class="a-cont">
+        <div>
+          <img
+            src="WhatsApp Image 2024-12-21 at 3.45.13 PM.jpeg"
+            class="a-imag"
+          />
+        </div>
+        <div class="a-name">
+          <p class="a-name" style="font-weight: bold">Rex</p>
+          <p class="a-name" style="color: rgb(96, 96, 96)">Happy Bulldog</p>
+          <p class="a-name" style="color: rgb(96, 96, 96)">Popular</p>
+        </div>
+        <div class="a-but-container">
+          <button class="a-button">Follow</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

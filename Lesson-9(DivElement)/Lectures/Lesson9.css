@@ -1,0 +1,25 @@
+.Channel-1-thumbnail {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  object-position: top;
+}
+.Search-box {
+  width: 230px;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.video-title1 {
+  width: 300px;
+}
+.video-preview1 {
+  display: inline-block;
+  width: 300px;
+  border-color: aqua;
+}
+.video-preview2 {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}

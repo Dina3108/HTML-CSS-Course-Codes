@@ -1,0 +1,130 @@
+.a-name {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 100px;
+  background-color: white;
+  color: rgb(145, 140, 140);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(145, 140, 140);
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin-bottom: 5px;
+}
+.a-email {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 103px;
+  background-color: white;
+  color: rgb(145, 140, 140);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(145, 140, 140);
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin-bottom: 15px;
+}
+.b {
+  width: 200px;
+  display: inline-block;
+}
+.b1B,
+.b2B {
+  vertical-align: middle;
+  margin-bottom: 30px;
+}
+.c-img {
+  display: block;
+  object-position: center;
+  margin-left: 350px;
+  height: 110px;
+  width: 250px;
+  object-fit: cover;
+}
+.c-search {
+  margin-top: 0;
+  width: 350px;
+  padding-left: 15px;
+  border-style: solid;
+  border-radius: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgb(145, 140, 140);
+  border-color: rgba(187, 177, 177, 0.185);
+  border-top-color: none;
+  border-width: 1px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  margin-left: 310px;
+  display: block;
+  margin-bottom: 15px;
+}
+.d-name1,
+.d-name2,
+.d-email {
+  display: inline-block;
+  width: 100px;
+  color: rgb(145, 140, 140);
+  border-color: rgb(222, 207, 207);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 7px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.d-email {
+  display: block;
+  width: 205px;
+}
+.d-button {
+  width: 205px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(43, 142, 240);
+  color: white;
+}
+.e-heading {
+  font-family: arial;
+  font-size: 30px;
+  display: block;
+  margin-bottom: 20px;
+}
+.e-search1 {
+  width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  background-color: buttonface;
+  border: none;
+  border-radius: 10px;
+  color: rgb(133, 124, 124);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin-bottom: 20px;
+}
+.e-button1 {
+  color: white;
+  background-color: black;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.e-button2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  font-size: 12px;
+}

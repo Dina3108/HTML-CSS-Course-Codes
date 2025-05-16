@@ -1,0 +1,138 @@
+body {
+  padding-bottom: 1000px;
+}
+.d-cont0 {
+  width: 420px;
+  height: 120px;
+  border: 1px solid rgb(252, 238, 238);
+  font-family: arial;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+.d-cont {
+  width: 420px;
+  height: 350px;
+  border: 1px solid rgb(252, 238, 238);
+  font-family: arial;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+.d-inbox {
+  display: block;
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 13px;
+  color: gray;
+  margin-left: 10px;
+}
+.d-down-cont {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 400px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.d-img-cont {
+  display: flex;
+  align-items: center;
+}
+.d-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: center;
+}
+.d-info-cont {
+  flex: 1;
+  margin-top: 10px;
+}
+.d-info1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.d-p1 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: 10px;
+  padding-right: 50px;
+}
+.d-span {
+  color: gray;
+  margin-right: 10px;
+}
+.d-title2 {
+  margin-top: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.d-title3 {
+  margin-top: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+  color: gray;
+}
+.f-cont {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  font-family: Arial;
+}
+.f-img-cont {
+  width: 50px;
+  padding-top: 5px;
+  height: 195px;
+}
+.f-img {
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+}
+.f-down-cont {
+  flex: 1;
+  margin-left: 10px;
+}
+.f-down1 {
+  margin-top: 5px;
+}
+.f-p1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.f-p2 {
+  margin-top: 0;
+}
+.f-span {
+  color: gray;
+}
+.f-down2 {
+  height: 80px;
+  border: 1px solid gray;
+  display: flex;
+  border-radius: 5px;
+}
+.fd21 {
+  background-color: gray;
+  height: 80px;
+  width: 80px;
+}
+.fd22 {
+  flex: 1;
+}
+.f-p3,
+.f-p4 {
+  width: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+.f-p3 {
+  margin-top: 8px;
+  margin-bottom: 3px;
+  color: gray;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11a</title>
+    <style>
+      .d-cont {
+        width: 240px;
+        height: 340px;
+        border: 1px solid rgb(96, 96, 96);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+        margin-right: 10px;
+      }
+      .d-img1 {
+        width: 240px;
+        height: 200px;
+      }
+      .d-heading {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      .d-img2 {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 5px;
+        margin-left: 8px;
+      }
+      .d-friend {
+        margin-top: 8px;
+        margin-bottom: 0;
+        vertical-align: top;
+        width: 130px;
+        font-size: 18px;
+        display: inline-block;
+        color: rgb(96, 96, 96);
+      }
+      .d-button {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgb(43, 142, 240);
+        border: none;
+        color: white;
+        border-radius: 3px;
+        display: block;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 200px 75px;
+        margin-bottom: 10px;
+      "
+    >
+      <div style="background-color: lightblue">200px</div>
+      <div style="background-color: lightpink">75px</div>
+    </div>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 10px;
+      "
+    >
+      <div style="background-color: lightblue">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightblue">col3</div>
+    </div>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+        margin-bottom: 10px;
+      "
+    >
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+    </div>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 240px 240px 240px;
+        column-gap: 10px;
+      "
+    >
+      <div class="d-cont">
+        <div>
+          <img src="thumbnail-1.webp" class="d-img1" />
+        </div>
+        <div style="display: block">
+          <p class="d-heading">Rex</p>
+        </div>
+        <div style="width: 250px">
+          <img
+            src="WhatsApp Image 2024-12-21 at 3.45.13 PM.jpeg"
+            class="d-img2"
+          />
+          <p class="d-friend">4 Mutual friends</p>
+        </div>
+        <div><button class="d-button">Add friend</button></div>
+      </div>
+      <div class="d-cont">
+        <div>
+          <img src="thumbnail-1.webp" class="d-img1" />
+        </div>
+        <div style="display: block">
+          <p class="d-heading">Rex</p>
+        </div>
+        <div style="width: 250px">
+          <img
+            src="WhatsApp Image 2024-12-21 at 3.45.13 PM.jpeg"
+            class="d-img2"
+          />
+          <p class="d-friend">4 Mutual friends</p>
+        </div>
+        <div><button class="d-button">Add friend</button></div>
+      </div>
+      <div class="d-cont">
+        <div>
+          <img src="thumbnail-1.webp" class="d-img1" />
+        </div>
+        <div style="display: block">
+          <p class="d-heading">Rex</p>
+        </div>
+        <div style="width: 250px">
+          <img
+            src="WhatsApp Image 2024-12-21 at 3.45.13 PM.jpeg"
+            class="d-img2"
+          />
+          <p class="d-friend">4 Mutual friends</p>
+        </div>
+        <div><button class="d-button">Add friend</button></div>
+      </div>
+    </div>
+  </body>
+</html>

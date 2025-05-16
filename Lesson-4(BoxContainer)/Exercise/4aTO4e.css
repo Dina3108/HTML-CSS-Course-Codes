@@ -1,0 +1,131 @@
+.Uber-button {
+  background-color: black;
+  color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
+  border-style: solid;
+  display: block;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.Uber-button:hover {
+  opacity: 0.85;
+}
+.Amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-right: 10px;
+  border-color: rgb(255, 216, 20);
+  border-radius: 15px;
+  border-style: solid;
+  font-size: 15px;
+  display: inline-flex;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color, 0.15s;
+}
+.Amazon-button:hover {
+  background-color: rgb(245, 216, 20);
+}
+.Github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: box-shadow 0.15s;
+}
+.Github-button:hover {
+  box-shadow: 4px 4px 2px rgba(46, 164, 79, 0.15);
+}
+.Bootstrap-button-1 {
+  padding-left: 8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-right: 8px;
+  color: white;
+  background-color: rgb(121, 82, 179);
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.Bootstrap-button-1:hover {
+  opacity: 0.87;
+}
+.Bootstrap-button-2 {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+.Bootstrap-button-2:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.Linkedin-button-1 {
+  display: inline-block;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.Linkedin-button-1:hover {
+  background-color: rgb(10, 122, 194);
+}
+.Linkedin-button-2 {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-radius: 1px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: border-width 0.15s, opacity 0.15s;
+}
+.Linkedin-button-2:hover {
+  border-width: 2px;
+  opacity: 0.7;
+}
