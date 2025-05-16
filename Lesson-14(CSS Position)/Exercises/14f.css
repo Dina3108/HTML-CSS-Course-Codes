@@ -1,0 +1,59 @@
+.sidebar1 {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+}
+.e-img {
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.e-img2,
+.e-img3 {
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+.sidebar2 {
+  background-color: rgb(47, 43, 43);
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50px;
+  width: 150px;
+  font-family: arial;
+}
+.s2-1 {
+  display: flex;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.s211 {
+  flex: 1;
+  padding-left: 10px;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.s212 {
+  flex: 1;
+  text-align: end;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.s2p {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: gray;
+  font-size: 13px;
+}
